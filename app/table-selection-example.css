@@ -1,9 +1,12 @@
 table {
   width: 100%;
+  display: block;
+  max-height: 500px !important;
+  overflow-y: scroll;
   cursor: pointer;
 }
 th, td {
-  min-width: 200px;
+  min-width: 100px;
 }
 .mat-row.highlighted {
   background: green;
