@@ -2,7 +2,9 @@ table {
   width: 100%;
   cursor: pointer;
 }
-
+th, td {
+  min-width: 200px;
+}
 .mat-row.highlighted {
   background: green;
 }
